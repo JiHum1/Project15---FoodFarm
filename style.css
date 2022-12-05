@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Prestigious";
-    src: local("Prestigious"), url("Prestigious.otf") format("opentype");
+    src: local("Prestigious"), url("./assets/Prestigious.otf") format("opentype");
 }
 @font-face {
     font-family: "Avenir";
-    src: local("Avenir"), url("AvenirLTStd-Book.otf") format("opentype");
+    src: local("Avenir"), url("./assets/AvenirLTStd-Book.otf") format("opentype");
 }
 
 * {
