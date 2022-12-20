@@ -39,6 +39,7 @@ a.nav-items {
     font-weight: 800;
     color: #000;
     text-decoration: none;
+    z-index: 999;
     transition: all 0.15s;
 }
 .nav-logo {
@@ -56,6 +57,7 @@ a.nav-items {
 }
 .main-container {
     background-color: #fffaf3;
+    /* position:relative; */
     width: 1320px;
     height: 634px;
     margin: auto;
@@ -115,6 +117,7 @@ a.nav-items {
 }
 .btn {
     display: inline-block;
+    position: relative;
     /* text-align: center; */
     border: #c08d5d 2px solid;
     /* width: 133px; */
@@ -134,9 +137,10 @@ a.nav-items {
 .btn-vector {
     background-color: #c08d5d;
     border: #c08d5d 2px solid;
-    /* position: absolute; */
-    float: right;
-    padding: 1rem 1.3rem;
+    position: absolute;
+    /* float: right; */
+    left: 68%;
+    padding: 0.9rem 1.3rem;
     width: 64px;
     height: 62px;
     cursor: pointer;
